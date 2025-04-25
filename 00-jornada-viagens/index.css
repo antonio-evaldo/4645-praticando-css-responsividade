@@ -1,0 +1,158 @@
+.cabecalho__container {
+    background: var(--preto);
+    width: 100%;
+    padding: 2.5rem 3rem;
+}
+
+.cabecalho {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.cabecalho__logo--icone {
+    max-width: 16.25rem;
+}
+
+.cabecalho__lista-links {
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.cabecalho__item a {
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.botao-hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.banner__img-wrapper {
+    margin: 0;
+}
+
+.banner__img {
+    max-width: 100%;
+}
+
+.banner__img-descricao {
+    max-width: 75rem;
+    color: var(--grafite, #222);
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 6.875rem auto;
+    padding: 0 1.5rem;
+}
+
+.container {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0 7.5rem;
+}
+
+.depoimentos__titulo,
+.pagamento__titulo,
+.busca__titulo {
+    color: var(--grafite);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.depoimentos__titulo--sublinhado,
+.pagamento__titulo--sublinhado,
+.busca__titulo--sublinhado {
+    width: 11.25rem;
+    height: 0.25rem;
+    background: var(--vermelho);
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.busca__categorias {
+    margin-bottom: 7rem;
+
+    display: flex;
+    gap: 1.5rem;
+}
+
+.busca__categoria {
+    width: 17.5rem;
+    color: var(--grafite, #222);
+    text-align: center;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 0.5rem;
+    background: var(--cinza-claro, #F5F5F5);
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span.material-symbols-outlined {
+    color: var(--cinza-escuro, #8C8C8C);
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pagamento {
+    margin-bottom: 7rem;
+}
+
+.pagamento__condicoes {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.pagamento__condicoes--destaque {
+    color: var(--grafite, #222);
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1.5rem;
+}
+
+.pagamento__condicoes--detalhes {
+    color: var(--grafite, #222);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.pagamento__imagens {
+    display: grid;
+    grid-template-areas:
+        "img1 img2"
+        "img3 img3";
+    gap: 1.5rem;
+}
+
+.pagamento__imagens img:nth-of-type(3) {
+    grid-area: img3;
+}
+
+.pre-footer__image {
+    display: block;
+}
