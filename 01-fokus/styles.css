@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html {
+    background: linear-gradient(180deg, #8B1FF8 0%, #041832 48.44%, #01080E 100%);
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Unbounded', cursive;
+}
+
+.app__section-banner-container {
+    max-width: 99rem;
+    margin: 5rem auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__title {
+    line-height: 150%;
+    font-size: 3.3563rem;
+    font-style: normal;
+    color: #FFF;
+    font-weight: 200;
+    max-width: 46rem;
+}
+
+.app__title-strong {
+    font-weight: 600;
+}
+
+.app__image {
+    width: 30rem;
+}
