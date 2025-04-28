@@ -1,0 +1,35 @@
+@media (max-width: 1000px) {
+  .botao-hamburguer {
+    display: block;
+  }
+
+  .cabecalho__navegacao {
+    display: none;
+  }
+
+  .banner__img-descricao {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .container {
+    padding: 0 3.75rem;
+  }
+
+  .pagamento__condicoes {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .pagamento__imagens {
+    grid-template-areas: 
+      "img1"
+      "img2"
+      "img3";
+  }
+}
