@@ -23,6 +23,8 @@ img {
   display: flex;
   justify-content: center;
   column-gap: 3rem;
+  flex-wrap: wrap;
+  row-gap: 3.5rem;
 }
 
 .secao__textos {
@@ -55,8 +57,30 @@ img {
 .secao__imagens {
   display: flex;
   gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .secao__imagens img {
   width: 14rem;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 5rem 3.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 5rem 1rem;
+  }
+
+  .secao__titulo {
+    font-size: 1.625rem;
+  }
+
+  .secao__p {
+    font-size: 0.9375rem;
+  }
 }
